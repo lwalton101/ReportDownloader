@@ -9,7 +9,7 @@ class AmazonURLGenerator:
         url += "&scope="
         url += scope
         url += "&response_type=code&redirect_uri="
-        url += "https://amazon.com"
+        url += "https://127.0.0.1:9999"
 
         
         return url
